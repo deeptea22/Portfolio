@@ -9,6 +9,7 @@ import { SocialComponent } from './social/social.component';
 import { MailComponent } from './mail/mail.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProjectsComponent } from './projects/projects.component';
     SocialComponent,
     MailComponent,
     ExperienceComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
