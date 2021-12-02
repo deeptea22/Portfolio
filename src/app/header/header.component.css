@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+nav{
+  padding: 20px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(100,255,218, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: rgb(100,255,218);
+} 
+
+ul{
+    font-family: 'Courier New', Courier, monospace;  
+}
+a{
+  color: #ccd6f6;
+}
+.index{
+    color:#64ffda;
+}
+a:hover{
+    color:#64ffda;
+}
+.color{
+    color: #64ffda;
+}
+.btn:hover{
+  background-color: transparent;
+  opacity: 0.5;
+}

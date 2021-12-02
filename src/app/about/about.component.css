@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@600&display=swap');
+
+.about{
+    padding:50px;
+    pointer-events: none;
+}
+
+h6{
+    color:#64ffda;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: #ccd6f6;
+    font-size: 50px;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    color: #a8b2d1;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: #a8b2d1;
+}
+.subs{
+    color: #64ffda;
+    background: none;
+    text-decoration: none;
+    padding: 0;
+
+}
+@media(min-width: 800px){
+    *{
+        padding: 0px 150px;
+        width: 100%;
+    }
+}

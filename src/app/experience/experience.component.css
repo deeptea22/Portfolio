@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Poppins:wght@600&display=swap');
+.tabbable-responsive {
+    display: block;
+    min-width: 100%;
+    overflow-x: auto;
+    margin: 0px -20px -13px -20px;
+}
+*{
+    cursor:context-menu;
+}
+.tab-content{
+    font-family: 'Courier New', Courier, monospace;
+    color:#64ffda;
+}
+.tabbable {
+    min-width: 100%;
+}
+.color{
+    color: #64ffda;
+}
+a:hover{
+    color: #64ffda;
+}
+.nav-tabs {
+    display: inline-block;
+    padding: 5px;
+    border:none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-item {
+    display: inline-block;
+    color: #64ffda;
+}
+.nav-link {
+    display: inline-block;
+    border:none;
+}
+.container, .card{
+    border-color: #0a192f;
+    background-color: #0a192f;
+}
+.card-header{
+    border-color: transparent;
+    background-color: #0a192f;
+}
+
+.title{
+    color: #64ffda;
+    font-family: 'Poppins', sans-serif;
+}
+.subs{
+    color: #ccd6f6;
+}
+.container{
+    padding:50px;    
+}
+
+hr{
+    color: #64ffda;
+    margin-left: 15px;
+    height: 2px;
+}
+@media(min-width: 800px){
+    .container{        
+        width: 75%;
+    }
+    .skills{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+}
+}
+
+a{
+    color: #ccd6f6;
+}
+
+li{
+    list-style: none;
+    color: #64ffda;
+    margin-bottom: 10px;
+    height: 22px;
+}
+@media(max-width:360px){
+    .skills{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(100px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+}
+}
+@media(min-width:361px) and (max-width: 600px){
+.skills{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+}
+}
+@media(min-width: 601px) and (max-width:799px){
+    .skills{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+}
+}

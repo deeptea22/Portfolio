@@ -1,0 +1,106 @@
+<div class="container my-3">
+    <div class="card">
+        <div class="card-header">
+            <div class="d-flex">
+                <div class="title">
+                    <h1 style="font-size: 40px;">Experience & Education</h1>          
+                    <br>
+                </div>        
+            </div>
+            <div class="tabbable-responsive">
+                <div class="tabbable">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link" [class.color]="id==='first'" id="first-tab" data-toggle="tab" (click)="tabChange('first')" role="tab" aria-controls="first">Samsung Prism</a>
+                        </li>
+                        <li class = "nav-item">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="second-tab"[class.color]="id==='second'" data-toggle="tab" (click)="tabChange('second')" role="tab" aria-controls="second">GDSC-Sathyabama</a>
+                        </li>
+                        <li class = "nav-item">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="third-tab"[class.color]="id==='third'" data-toggle="tab" (click)="tabChange('third')" role="tab" aria-controls="third">Education</a>
+                        </li>        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="card-body">
+            <div class="tab-content">
+                <div class="tab-pane fade show active" *ngIf="id==='first'" id="first" role="tabpanel" aria-labelledby="first-tab">
+                    <h6 class="card-title"><span class="subs">Duration:</span> Oct 2021 - Current</h6>
+                    <h6><span class="subs">Role:</span> R&D Intern</h6>
+                        <p class="card-text">♦ Working on Wireless Network, LTE | Tool development to Automatic analysis of DSP Crashes</p>
+                </div>
+                <div class="tab-pane fade show active" *ngIf="id==='second'" id="second" role="tabpanel" aria-labelledby="second-tab">
+                    <h6 class="card-title"><span class="subs">Duration:</span> Sep 2021 - Current</h6>
+                    <h6><span class="subs">Role:</span> Design Lead</h6>
+                        <p class="card-text">♦ Learnt about a variety of technical topics and gained new skills through active workshops, webinars, events, talks, and 
+project-building activities. <br>♦ Applied new learnings to create better solutions for issue</p>
+                        <br>
+                        <h6 class="card-title"><span class="subs">Duration:</span> Jan 2021 - Sep 2021</h6>
+                    <h6><span class="subs">Role:</span> Technical Team Member</h6>
+                        <p class="card-text">♦ Designed simple, elegant, data-driven, user-centric experiences that delight users</p>
+                </div>
+                <div class="tab-pane fade show active" *ngIf="id==='third'" id="third" role="tabpanel" aria-labelledby="third-tab">
+                    <h6 class="card-title"><span class="subs">Duration:</span> July 2019 - 2023</h6>
+                    <h6><span class="subs">Degree:</span> Bachelor of Engineering - Computer Science Engineering</h6>
+                    <h6><span class="subs">Skills:</span>                        
+                        <ul class="skills">                                                      
+                            <li>
+                                <span class="iconify" data-icon="icomoon-free:html-five2" style="color: #64ffda;"></span>&nbsp;HTML
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="bx:bxl-css3" style="color: #64ffda;"data-width="24"></span>&nbsp;CSS
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="ci:javascript" style="color: #64ffda;"data-width="24"></span>&nbsp;JS
+                            </li> 
+                            <li>
+                                <span class="iconify" data-icon="cib:php" style="color: #64ffda;" data-width="28"></span>&nbsp;PHP
+                            </li>                               
+                            <li>
+                                <span class="iconify" data-icon="cib:java" style="color: #64ffda;" data-width="22"></span>&nbsp;Java
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="akar-icons:python-fill" style="color: #64ffda;"></span>&nbsp;Python                                
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="carbon:logo-r-script" style="color: #64ffda;"></span>&nbsp;R
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="ant-design:android-filled" style="color: #64ffda;"></span>&nbsp;Android
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="simple-icons:mariadbfoundation" style="color: #64ffda;"></span>&nbsp;MariaDB
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="fontisto:mysql" style="color: #64ffda;"></span>&nbsp;SQL
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="cib:firebase" style="color: #64ffda;"></span>&nbsp;Firebase
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="akar-icons:angular-fill" style="color: #64ffda;"data-width="17"></span>&nbsp;Angular
+                            </li> 
+                            <li>
+                                <span class="iconify" data-icon="akar-icons:bootstrap-fill" style="color: #64ffda;"></span>&nbsp;Bootstrap
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="akar-icons:figma-fill"></span>&nbsp;Figma
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="simple-icons:adobexd" style="color: #64ffda;"></span>&nbsp;AdobeXD
+                            </li>
+                            <li>
+                                <span class="iconify" data-icon="iconoir:github"></span>&nbsp;GitHub
+                            </li>
+                        </ul>
+                    </h6>  
+                </div>   
+            </div>
+        </div>
+    </div>
+</div>
+
