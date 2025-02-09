@@ -11,7 +11,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  id:any = 'first';
+  id:any = 'about';
   tabChange(ids:any){
     this.id = ids;
   }

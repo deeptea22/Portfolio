@@ -11,19 +11,19 @@
                 <div class="tabbable">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link" [class.color]="id==='first'" id="first-tab" data-toggle="tab" (click)="tabChange('first')" role="tab" aria-controls="first">Accenture</a>
+                            <a class="nav-link" [class.color]="id==='first'" id="first-tab" data-toggle="tab" (click)="tabChange('first')" role="tab" aria-controls="first">Skills</a>
                         </li>
                         <li class = "nav-item">|</li>
                         <li class="nav-item">
-                            <a class="nav-link" [class.color]="id==='second'" id="second-tab" data-toggle="tab" (click)="tabChange('second')" role="tab" aria-controls="second">Samsung Prism</a>
+                            <a class="nav-link" [class.color]="id==='second'" id="second-tab" data-toggle="tab" (click)="tabChange('second')" role="tab" aria-controls="second">NatWest Group</a>
                         </li>
                         <li class = "nav-item">|</li>
                         <li class="nav-item">
-                            <a class="nav-link" id="third-tab"[class.color]="id==='third'" data-toggle="tab" (click)="tabChange('third')" role="tab" aria-controls="third">GDSC-Sathyabama</a>
+                            <a class="nav-link" id="third-tab"[class.color]="id==='third'" data-toggle="tab" (click)="tabChange('third')" role="tab" aria-controls="third">Accenture</a>
                         </li>
                         <li class = "nav-item">|</li>
                         <li class="nav-item">
-                            <a class="nav-link" id="fourth-tab"[class.color]="id==='fourth'" data-toggle="tab" (click)="tabChange('fourth')" role="tab" aria-controls="fourth">Education</a>
+                            <a class="nav-link" id="fourth-tab"[class.color]="id==='fourth'" data-toggle="tab" (click)="tabChange('fourth')" role="tab" aria-controls="fourth">GDSC-Sathyabama</a>
                         </li>        
                     </ul>
                 </div>
@@ -33,81 +33,120 @@
         <div class="card-body">
             <div class="tab-content">
                 <div class="tab-pane fade show active" *ngIf="id==='first'" id="first" role="tabpanel" aria-labelledby="first-tab">
-                    <h6 class="card-title"><span class="subs">Duration:</span> June 2022 - Aug 2022</h6>
-                    <h6><span class="subs">Role:</span> Data Engineering Intern</h6>
-                        <p class="card-text">♦ Working in Data Engineering - Applied Intelligence </p>
+                  <h6>
+                    <ul class="skills">
+                      <li>
+                        <span class="iconify" data-icon="cib:java" style="color: #64ffda;" data-width="22"></span>&nbsp;Java
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="simple-icons:springboot" style="color: #64ffda;"
+                          data-width="22"></span>&nbsp;Spring Boot
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="mdi:apache-kafka" style="color: #64ffda;" data-width="22"></span>&nbsp;Kafka
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="cib:amazon-aws" style="color: #64ffda;"></span>&nbsp;AWS
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="akar-icons:python-fill" style="color: #64ffda;"></span>&nbsp;Python
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="flowbite:mongo-db-solid" style="color: #64ffda;"></span>&nbsp;Mongo DB
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="simple-icons:mariadbfoundation" style="color: #64ffda;"></span>&nbsp;MariaDB
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="fontisto:mysql" style="color: #64ffda;"></span>&nbsp;SQL
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="mdi:git" style="color: #64ffda;"></span>&nbsp;Git
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="akar-icons:angular-fill" style="color: #64ffda;"
+                          data-width="17"></span>&nbsp;Angular
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="ion:logo-tableau" style="color: #64ffda;"></span>&nbsp;Tableau
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="arcticons:microsoft-power-bi"></span>&nbsp;Power BI
+                      </li>                     
+                      <li>
+                        <span class="iconify" data-icon="simple-icons:splunk"></span>&nbsp;Splunk
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="simple-icons:splunk"></span>&nbsp;Grafana
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="simple-icons:prometheus"></span>&nbsp;Prometheus
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="simple-icons:broadcom"></span>&nbsp;DXAPM
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="mdi:cloud-outline"></span>&nbsp;PCF
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="mdi:jira"></span>&nbsp;Jira
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="devicon-plain:confluence"></span>&nbsp;Confluence
+                      </li>
+                      <li>
+                        <span class="iconify" data-icon="mdi:trello"></span>&nbsp;Trello
+                      </li>
+                    </ul>
+                  </h6>
+                    
                 </div>
                 <div class="tab-pane fade show active" *ngIf="id==='second'" id="second" role="tabpanel" aria-labelledby="second-tab">
-                    <h6 class="card-title"><span class="subs">Duration:</span> Oct 2021 - May 2022</h6>
-                    <h6><span class="subs">Role:</span> R&D Intern</h6>
-                        <p class="card-text">♦ Working on Wireless Network, LTE | Tool development to Automatic analysis of DSP Crashes</p>
+                  <h6 class="card-title"><span class="subs">Duration:</span> July 2023 - Present</h6>
+                  <h6><span class="subs">Role:</span> Software Engineer</h6>
+                  <p class="card-text">♦ Working in Fraud Prevention CoE
+                    <br><br>
+                    Successfully restructured a monolithic legacy application into a scalable microservices architecture, reducing
+                    deployment time by 30% with real-time monitoring and logging.
+                    <br><br>
+                    Identified and resolved discrepancies in incoming requests, significantly enhancing data integrity and application
+                    reliability, reducing errors by 97%.
+                    <br><br>
+                    Designed and implemented a fraud prevention solution by integrating payment channels with threat sensors to enable
+                    intelligent payment decisions, improve payee profiling, and reduce fraud losses and false positives.
+                    <br><br>
+                    Optimized reconciliation processes using Visio, ensuring 100% accuracy and consistency across millions of financial
+                    transactions.
+                  </p>
                 </div>
                 <div class="tab-pane fade show active" *ngIf="id==='third'" id="third" role="tabpanel" aria-labelledby="third-tab">
-                    <h6 class="card-title"><span class="subs">Duration:</span> Sep 2021 - Current</h6>
-                    <h6><span class="subs">Role:</span> Design Lead</h6>
-                        <p class="card-text">♦ Designed simple, elegant, data-driven, user-centric experiences that delight users</p>
-                        <br>
-                        <h6 class="card-title"><span class="subs">Duration:</span> Jan 2021 - Sep 2021</h6>
-                    <h6><span class="subs">Role:</span> Technical Team Member</h6>
-                    <p class="card-text">♦ Learnt about a variety of technical topics and gained new skills through active workshops, webinars, events, talks, and 
-project-building activities. <br>♦ Applied new learnings to create better solutions for issue</p>
+                  <h6 class="card-title"><span class="subs">Duration:</span> June 2022 - Aug 2022</h6>
+                  <h6><span class="subs">Role:</span> Data Engineering Intern</h6>
+                  <p class="card-text">
+                    ♦ Working in Data Engineering - Applied Intelligence
+                    <br><br>
+                    Conducted a comprehensive analysis of Citi Bike data using PySpark, Power BI, and Tableau, identifying trends that
+                    improved bike rebalancing efficiency by 20% and optimized ridership patterns.
+                    <br><br>
+                    Developed actionable insights that contributed to an estimated 15% increase in revenue through better resource
+                    allocation and operational strategies.
+                    <br><br>
+                    Designed and created a static website hosted on AWS S3 and distributed globally using AWS CloudFront, along with an
+                    automated deployment processes using a CI/CD pipeline built with AWS CloudFormation, reducing deployment time by 50%
+                    and
+                    enhancing code release efficiency.
+                  </p>                    
                 </div>
                 <div class="tab-pane fade show active" *ngIf="id==='fourth'" id="fourth" role="tabpanel" aria-labelledby="fourth-tab">
-                    <h6 class="card-title"><span class="subs">Duration:</span> July 2019 - 2023</h6>
-                    <h6><span class="subs">Degree:</span> Bachelor of Engineering - Computer Science Engineering</h6>
-                    <h6><span class="subs">Skills:</span>                        
-                        <ul class="skills">                                                      
-                            <li>
-                                <span class="iconify" data-icon="icomoon-free:html-five2" style="color: #64ffda;"></span>&nbsp;HTML
-                            </li>
-                            <li>
-                                <span class="iconify" data-icon="bx:bxl-css3" style="color: #64ffda;"data-width="24"></span>&nbsp;CSS
-                            </li>
-                            <li>
-                                <span class="iconify" data-icon="ci:javascript" style="color: #64ffda;"data-width="24"></span>&nbsp;JS
-                            </li> 
-                            <li>
-                                <span class="iconify" data-icon="cib:php" style="color: #64ffda;" data-width="28"></span>&nbsp;PHP
-                            </li>                               
-                            <li>
-                                <span class="iconify" data-icon="cib:java" style="color: #64ffda;" data-width="22"></span>&nbsp;Java
-                            </li>
-                            <li>
-                                <span class="iconify" data-icon="akar-icons:python-fill" style="color: #64ffda;"></span>&nbsp;Python                                
-                            </li>
-                            <li>
-                                <span class="iconify" data-icon="carbon:logo-r-script" style="color: #64ffda;"></span>&nbsp;R
-                            </li>
-                            <li>
-                                <span class="iconify" data-icon="ant-design:android-filled" style="color: #64ffda;"></span>&nbsp;Android
-                            </li>
-                            <li>
-                                <span class="iconify" data-icon="simple-icons:mariadbfoundation" style="color: #64ffda;"></span>&nbsp;MariaDB
-                            </li>
-                            <li>
-                                <span class="iconify" data-icon="fontisto:mysql" style="color: #64ffda;"></span>&nbsp;SQL
-                            </li>
-                            <li>
-                                <span class="iconify" data-icon="cib:firebase" style="color: #64ffda;"></span>&nbsp;Firebase
-                            </li>
-                            <li>
-                                <span class="iconify" data-icon="akar-icons:angular-fill" style="color: #64ffda;"data-width="17"></span>&nbsp;Angular
-                            </li> 
-                            <li>
-                                <span class="iconify" data-icon="akar-icons:bootstrap-fill" style="color: #64ffda;"></span>&nbsp;Bootstrap
-                            </li>
-                            <li>
-                                <span class="iconify" data-icon="akar-icons:figma-fill"></span>&nbsp;Figma
-                            </li>
-                            <li>
-                                <span class="iconify" data-icon="simple-icons:adobexd" style="color: #64ffda;"></span>&nbsp;AdobeXD
-                            </li>
-                            <li>
-                                <span class="iconify" data-icon="iconoir:github"></span>&nbsp;GitHub
-                            </li>
-                        </ul>
-                    </h6>  
-                </div>   
+                    <h6 class="card-title"><span class="subs">Duration:</span> Aug 2022 - June 2023</h6>
+                    <h6><span class="subs">Role:</span> Lead</h6>
+                    <p class="card-text">
+                      Implemented effective strategies to enhance community growth and engagement by 50%.
+                      <br><br>
+                      Spearheaded the planning and promotion of 10+ networking events, attracting and engaging over 300 participants,
+                      resulting in a 20% increase in professional connections and attendee engagement.
+                    </p>
+                    <br>
             </div>
         </div>
     </div>

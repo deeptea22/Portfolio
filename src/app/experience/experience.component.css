@@ -8,6 +8,10 @@
 *{
     cursor:context-menu;
 }
+.card-text{
+    font-family: 'Courier New', Courier, monospace;
+    color:#ffffff;
+}
 .tab-content{
     font-family: 'Courier New', Courier, monospace;
     color:#64ffda;
